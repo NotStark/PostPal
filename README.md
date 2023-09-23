@@ -10,7 +10,7 @@ Describe how to install your project, including any prerequisites and step-by-st
 Explain how others can contribute to your project. Include guidelines for pull requests and reporting issues.
 
 ## License
-This project is licensed under the [MIT]() license. See the LICENSE file for details.
+This project is licensed under the [MIT](./LICENCE) license. See the LICENSE file for details.
 
 sql
 Copy code
