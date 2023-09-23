@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Post Pal</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      color: aqua;
+    }
+
+    form {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      display: inline-block;
+    }
+
+    b {
+      font-weight: bold;
+    }
+
+    input[type="file"] {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+    }
+
+    button[type="submit"] {
+      background-color: aqua;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      background-color: #ccc;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Upload your image files to PostPal</h1>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <b>Choose a file to upload:</b> <input type="file" name="file" required> <br>
+    <hr>
+    <b>Click the button to submit:</b> <button type="submit">Upload file</button>
+  </form>
+</body>
+
+</html>
