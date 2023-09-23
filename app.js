@@ -40,8 +40,10 @@ app.post("/analytics", async (req, res) => {
     const timestamps = [];
     fileDetails.visitHistory.forEach((val) => timestamps.push(val.timestamp));
     res.json({
+      createdAt : fileDetails.createdAt,
       totalViews: timestamps.length,
       visitedOn: timestamps,
+      
     });
   }
 });
