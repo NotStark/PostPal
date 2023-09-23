@@ -12,7 +12,3 @@ Explain how others can contribute to your project. Include guidelines for pull r
 ## License
 This project is licensed under the [MIT](./LICENCE) license. See the LICENSE file for details.
 
-sql
-Copy code
-
-You can copy this template, paste it into your `README.md` file, and then fil
