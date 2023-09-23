@@ -7,6 +7,10 @@
 <hr/>
 
 
+# Features
+- Upload Any type of file
+- Get Anylitics: view , timestamp , createDate etc
+
 ## Built With
 
 - [Express](https://expressjs.com/)
