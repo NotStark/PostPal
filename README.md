@@ -1,8 +1,8 @@
 
 <h1 align="center">
   PostPal
-</h1>
-<img src="https://github.com/NotStark/PostPal/assets/142086826/7db11691-8b26-42b6-b0d8-c3cb1dfa5900"/>
+</h1/>
+<img src = "https://github.com/NotStark/PostPal/assets/142086826/afda4c25-03da-48dd-bbf8-1c1da9feb60a" />
 <p align="center">A simple clone of telegra.ph , that can upload any type of file to the server and return a unique id to access it.<p/>
 <hr/>
 
