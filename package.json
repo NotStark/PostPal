@@ -1,0 +1,35 @@
+{
+  "name": "postpal",
+  "version": "1.0.0",
+  "description": "simple clone of telegra.ph.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotStark/PostPal.git"
+  },
+  "keywords": [
+    "telegraph"
+  ],
+  "author": "Stark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NotStark/PostPal/issues"
+  },
+  "homepage": "https://github.com/NotStark/PostPal#readme",
+  "contact": {
+    "email": "YeahAmStark@Gmail.com"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.2",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
