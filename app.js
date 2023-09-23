@@ -13,7 +13,7 @@ const port = 3000;
 connectToMongo(process.env.MONGO_URL)
   .then(() => console.log("Connected to Mongo!"))
   .catch((err) =>
-    console.log("An Error occurred while connected to Mongo", err)
+      console.log("An Error occurred while connecting to Mongo", err)
   );
 
 app.use(express.json());
