@@ -9,7 +9,7 @@
 
 # Features
 - Upload Any type of file
-- Get Anylitics: view , timestamp , createDate etc
+- Get Anylitics: views , timestamp , createDate etc
 
 ## Built With
 
